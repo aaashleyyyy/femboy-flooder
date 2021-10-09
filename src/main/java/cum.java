@@ -17,13 +17,13 @@ import java.util.concurrent.TimeUnit;
 
 public class cum {
     public static void main(String[] args) throws Exception {
-        int winAmount = 30;
-        int dlThreadAmount = 15;
+        int winAmount = 120;
+        int dlThreadAmount = 30;
         int windowMoveDelayMS = 1;
         System.out.println("Retard");
         ExecutorService excv = Executors.newFixedThreadPool(dlThreadAmount);
         List<ImageIcon> images = new ArrayList<>();
-        String resp = getHTML("https://rule34.xxx/index.php?page=dapi&s=post&q=index&tags=femboy&limit=" + winAmount);
+        String resp = getHTML("https://rule34.xxx/index.php?page=dapi&s=post&q=index&tags=guro&limit=" + winAmount);
         JSONObject respJson = XML.toJSONObject(resp);
         for (int i = 0; i < winAmount; i++) {
             int finalI = i;
