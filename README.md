@@ -1,4 +1,4 @@
-# femboy-flooder
+# rule34-flooder
 0x150's femboy-flooder but way worse and more convincing.
 
 Theres a jar with extra file size to make the jar more convincing in releases.
